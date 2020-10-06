@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import FactsWidget from "./Components/FactsWidget";
+import ComputeLongestWord from "./Components/ComputeLongestWord";
 
 class App extends React.Component {
   constructor(props) {
@@ -20,7 +20,7 @@ class App extends React.Component {
   }
 
   render() {
-    return <FactsWidget />;
+    return <ComputeLongestWord />;
   }
 }
 export default App;
