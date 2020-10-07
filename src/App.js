@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import ComputeLongestWord from "./Components/ComputeLongestWord";
+// import ComputeLongestWord from "./Components/ComputeLongestWord";
+// import Counter from "./Components/Counter";
+import Todo from "./Components/Todo";
 
 class App extends React.Component {
   constructor(props) {
@@ -20,7 +22,7 @@ class App extends React.Component {
   }
 
   render() {
-    return <ComputeLongestWord />;
+    return <Todo />;
   }
 }
 export default App;
